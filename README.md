@@ -1,5 +1,7 @@
 **Trinkgeldrechner Projekt - README**
 
+#Direktlink: https://maylique.github.io/Trinkgeld_Rechner/
+
 # Trinkgeldrechner
 
 Dieses Projekt ist ein einfacher Trinkgeldrechner, der in HTML, CSS und JavaScript (main.js) entwickelt wurde. Der Rechner ermöglicht es Benutzern, den Gesamtbetrag einer Rechnung einzugeben, den gewünschten Trinkgeldprozentsatz auszuwählen und das Trinkgeld auf mehrere Personen aufzuteilen.
