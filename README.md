@@ -1,6 +1,6 @@
 **Trinkgeldrechner Projekt - README**
 
-# Direktlink: https://maylique.github.io/Trinkgeld_Rechner/
+Direktlink: https://maylique.github.io/Trinkgeld_Rechner/
 
 # Trinkgeldrechner
 

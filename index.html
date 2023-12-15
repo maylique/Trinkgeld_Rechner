@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>MehrwertSteuer Rechner</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <main>
+        <form>
+            <h1>Trinkgeldrechner</h1>
+            <section>
+                <div class="flexColumn">
+                    <label for="rechnung">Wie hoch war die Rechnung?</label>
+                    <input type="text" id="rechnerInput" required placeholder="Betrag eingeben">
+                </div>
+                <div class="flexColumn">
+                    <label for="wieviele">Wie viele Menschen teilen sich die Rechnung?</label>
+                    <input type="text" name="wieviele" id="inputWieViele" placeholder="Wieviele seit ihr?">
+                </div>
+            </section>
+            <section>
+                <div class="flex">
+                    <select name="service" id="service">
+                        <option id="Error" value="">Wie war der Service?</option>
+                        <option id="Super" value="1.20">Super</option>
+                        <option id="Okay" value="1.1">Okay</option>
+                        <option id="bad" value="1.02">Schlecht</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <input type="submit" value="Berechnen" onclick="calc(); return false">
+            </section>
+            <section>
+                <p id="resultTrinkgeld"></p>
+                <p id="resultGesamt"></p>
+                <p id="pricePerPerson"></p>
+            </section>
+        </form>
+    </main>
     
     <script src="./assets/javascript/main.js"></script>
 </body>
